@@ -8,8 +8,6 @@ from PIL import Image
 from torch.utils.data import Dataset
 
 
-# Seven demographic/clinical variables plus 62 quantitative OCTA variables.
-# Original feature index 7 (acquisition-device version) is excluded.
 FULL_NO_DEVICE_INDICES = list(range(0, 7)) + list(range(8, 70))
 
 
