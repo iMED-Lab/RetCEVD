@@ -27,8 +27,6 @@ RetCEVD/
 │   ├── metrics.py
 │   └── utils.py
 └── Data/
-    ├── README.md
-    ├── example.tsv
     └── example_eye/
 ```
 
@@ -65,7 +63,7 @@ images/
 
 Use one image per layer at a consistent spatial resolution. Filename suffixes are configured in `OCTATabularDataset.LAYER_SPECS` in `Code/dataset.py`.
 
-A synthetic, single-eye format example is provided in [`Data/`](Data/README.md), including three grayscale images and a tab-separated input row. It illustrates the file format only and contains no patient data.
+A synthetic, single-eye image example is provided in [`Data/example_eye/`](Data/example_eye/), with one grayscale image for each layer. These artificial patterns illustrate the image format and contain no patient data.
 
 ### Split files and tabular inputs
 
