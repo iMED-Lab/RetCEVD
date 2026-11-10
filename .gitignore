@@ -20,3 +20,11 @@ weights/
 *.csv
 *.tsv
 *.xlsx
+
+!/Data/
+/Data/*
+!/Data/README.md
+!/Data/example.tsv
+!/Data/example_eye/
+/Data/example_eye/*
+!/Data/example_eye/*.png
